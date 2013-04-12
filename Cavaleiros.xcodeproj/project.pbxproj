@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011E9BB01717713900E6B24A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E9BAF1717713900E6B24A /* UIKit.framework */; };
+		011E9BB21717713900E6B24A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E9BB11717713900E6B24A /* Foundation.framework */; };
+		011E9BB41717713900E6B24A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E9BB31717713900E6B24A /* CoreGraphics.framework */; };
+		011E9BBA1717713900E6B24A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 011E9BB81717713900E6B24A /* InfoPlist.strings */; };
+		011E9BBC1717713900E6B24A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9BBB1717713900E6B24A /* main.m */; };
+		011E9BC01717713900E6B24A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9BBF1717713900E6B24A /* AppDelegate.m */; };
+		011E9BCE1717780500E6B24A /* ListaCavaleirosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9BCD1717780500E6B24A /* ListaCavaleirosViewController.m */; };
+		011E9BD217177B4000E6B24A /* Conexao.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9BD117177B4000E6B24A /* Conexao.m */; };
+		011E9BD61717863E00E6B24A /* Cavaleiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9BD51717863E00E6B24A /* Cavaleiro.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011E9BAB1717713900E6B24A /* Cavaleiros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cavaleiros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011E9BAF1717713900E6B24A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		011E9BB11717713900E6B24A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		011E9BB31717713900E6B24A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		011E9BB71717713900E6B24A /* Cavaleiros-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cavaleiros-Info.plist"; sourceTree = "<group>"; };
+		011E9BB91717713900E6B24A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		011E9BBB1717713900E6B24A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		011E9BBD1717713900E6B24A /* Cavaleiros-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cavaleiros-Prefix.pch"; sourceTree = "<group>"; };
+		011E9BBE1717713900E6B24A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		011E9BBF1717713900E6B24A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		011E9BCC1717780500E6B24A /* ListaCavaleirosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaCavaleirosViewController.h; sourceTree = "<group>"; };
+		011E9BCD1717780500E6B24A /* ListaCavaleirosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaCavaleirosViewController.m; sourceTree = "<group>"; };
+		011E9BD017177B4000E6B24A /* Conexao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conexao.h; sourceTree = "<group>"; };
+		011E9BD117177B4000E6B24A /* Conexao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conexao.m; sourceTree = "<group>"; };
+		011E9BD41717863E00E6B24A /* Cavaleiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cavaleiro.h; sourceTree = "<group>"; };
+		011E9BD51717863E00E6B24A /* Cavaleiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cavaleiro.m; sourceTree = "<group>"; };
+		011E9BD817178FDE00E6B24A /* ConexaoDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConexaoDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011E9BA81717713900E6B24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011E9BB01717713900E6B24A /* UIKit.framework in Frameworks */,
+				011E9BB21717713900E6B24A /* Foundation.framework in Frameworks */,
+				011E9BB41717713900E6B24A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011E9BA01717713900E6B24A = {
+			isa = PBXGroup;
+			children = (
+				011E9BB51717713900E6B24A /* Cavaleiros */,
+				011E9BAE1717713900E6B24A /* Frameworks */,
+				011E9BAC1717713900E6B24A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011E9BAC1717713900E6B24A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BAB1717713900E6B24A /* Cavaleiros.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011E9BAE1717713900E6B24A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BAF1717713900E6B24A /* UIKit.framework */,
+				011E9BB11717713900E6B24A /* Foundation.framework */,
+				011E9BB31717713900E6B24A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		011E9BB51717713900E6B24A /* Cavaleiros */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BBE1717713900E6B24A /* AppDelegate.h */,
+				011E9BBF1717713900E6B24A /* AppDelegate.m */,
+				011E9BCF1717781000E6B24A /* Controllers */,
+				011E9BD317177B4E00E6B24A /* Conexao */,
+				011E9BD71717864600E6B24A /* Model */,
+				011E9BB61717713900E6B24A /* Supporting Files */,
+			);
+			path = Cavaleiros;
+			sourceTree = "<group>";
+		};
+		011E9BB61717713900E6B24A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BB71717713900E6B24A /* Cavaleiros-Info.plist */,
+				011E9BB81717713900E6B24A /* InfoPlist.strings */,
+				011E9BBB1717713900E6B24A /* main.m */,
+				011E9BBD1717713900E6B24A /* Cavaleiros-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		011E9BCF1717781000E6B24A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BCC1717780500E6B24A /* ListaCavaleirosViewController.h */,
+				011E9BCD1717780500E6B24A /* ListaCavaleirosViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		011E9BD317177B4E00E6B24A /* Conexao */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BD017177B4000E6B24A /* Conexao.h */,
+				011E9BD117177B4000E6B24A /* Conexao.m */,
+				011E9BD817178FDE00E6B24A /* ConexaoDelegate.h */,
+			);
+			name = Conexao;
+			sourceTree = "<group>";
+		};
+		011E9BD71717864600E6B24A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				011E9BD41717863E00E6B24A /* Cavaleiro.h */,
+				011E9BD51717863E00E6B24A /* Cavaleiro.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011E9BAA1717713900E6B24A /* Cavaleiros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011E9BC91717713900E6B24A /* Build configuration list for PBXNativeTarget "Cavaleiros" */;
+			buildPhases = (
+				011E9BA71717713900E6B24A /* Sources */,
+				011E9BA81717713900E6B24A /* Frameworks */,
+				011E9BA91717713900E6B24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cavaleiros;
+			productName = Cavaleiros;
+			productReference = 011E9BAB1717713900E6B24A /* Cavaleiros.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011E9BA21717713900E6B24A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "iLearn Educação e Informática Ltda";
+			};
+			buildConfigurationList = 011E9BA51717713900E6B24A /* Build configuration list for PBXProject "Cavaleiros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 011E9BA01717713900E6B24A;
+			productRefGroup = 011E9BAC1717713900E6B24A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011E9BAA1717713900E6B24A /* Cavaleiros */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011E9BA91717713900E6B24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011E9BBA1717713900E6B24A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011E9BA71717713900E6B24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011E9BBC1717713900E6B24A /* main.m in Sources */,
+				011E9BC01717713900E6B24A /* AppDelegate.m in Sources */,
+				011E9BCE1717780500E6B24A /* ListaCavaleirosViewController.m in Sources */,
+				011E9BD217177B4000E6B24A /* Conexao.m in Sources */,
+				011E9BD61717863E00E6B24A /* Cavaleiro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		011E9BB81717713900E6B24A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011E9BB91717713900E6B24A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011E9BC71717713900E6B24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		011E9BC81717713900E6B24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011E9BCA1717713900E6B24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cavaleiros/Cavaleiros-Prefix.pch";
+				INFOPLIST_FILE = "Cavaleiros/Cavaleiros-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		011E9BCB1717713900E6B24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cavaleiros/Cavaleiros-Prefix.pch";
+				INFOPLIST_FILE = "Cavaleiros/Cavaleiros-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011E9BA51717713900E6B24A /* Build configuration list for PBXProject "Cavaleiros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011E9BC71717713900E6B24A /* Debug */,
+				011E9BC81717713900E6B24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011E9BC91717713900E6B24A /* Build configuration list for PBXNativeTarget "Cavaleiros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011E9BCA1717713900E6B24A /* Debug */,
+				011E9BCB1717713900E6B24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011E9BA21717713900E6B24A /* Project object */;
+}
